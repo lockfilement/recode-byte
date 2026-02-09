@@ -10,3 +10,4 @@ deepl>=1.15.0
 aiofiles>=23.0.0
 curl-cffi>=0.6.0
 google-generativeai>=0.3.0
+Flask==2.2.5
