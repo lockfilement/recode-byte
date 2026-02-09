@@ -2,7 +2,7 @@ tokens:
   - ""
 
 developer_ids:
-  - "1011724934831149169"
+  - "344131223230087177"
 
 command_prefix: ";"
 version: "2.0.0"
@@ -20,7 +20,7 @@ presence:
   enabled: false
   name: ""
   type: 0
-  application_id: "1298557455646855219"
+  application_id: "1452746066708664431"
   state: ""
   details: ""
   large_image: ""
