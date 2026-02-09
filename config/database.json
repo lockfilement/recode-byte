@@ -1,0 +1,19 @@
+{
+    "mongodb": {
+        "uri": "mongodb://localhost:27017",
+        "database": "discord_bot",
+        "options": {
+            "retryWrites": true,
+            "w": "majority",
+            "maxPoolSize": 15,
+            "minPoolSize": 3,
+            "maxIdleTimeMS": 30000,
+            "waitQueueTimeoutMS": 5000,
+            "serverSelectionTimeoutMS": 5000,
+            "socketTimeoutMS": 300000,
+            "connectTimeoutMS": 10000,
+            "maxConnecting": 5,
+            "compressors": "zstd"
+        }
+    }
+}

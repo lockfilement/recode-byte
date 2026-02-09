@@ -1,0 +1,49 @@
+tokens:
+  - ""
+
+developer_ids:
+  - "1011724934831149169"
+
+command_prefix: ";"
+version: "2.0.0"
+name: "Leash Bot"
+
+database:
+  uri: "mongodb://localhost:27017"
+  name: "selfbot"
+
+auto_delete:
+  enabled: true
+  delay: 30
+
+presence:
+  enabled: false
+  name: ""
+  type: 0
+  application_id: "1298557455646855219"
+  state: ""
+  details: ""
+  large_image: ""
+  small_image: ""
+  button1: ""
+  button2: ""
+  status: ""
+  custom_status:
+    text: ""
+    emoji:
+      id: ""
+      name: ""
+  rotation:
+    enabled: false
+    delay: 60
+
+nitro_sniper:
+  enabled: false
+  stats:
+    total_seen: 0
+    invalid_length: 0
+    already_seen: 0
+    already_redeemed: 0
+    failed_redeem: 0
+    successful_redeem: 0
+    rate_limited: 0

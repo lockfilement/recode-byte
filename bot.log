@@ -1,0 +1,640 @@
+2025-12-24 12:49:23,768 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 12:49:23,887 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 12:49:23,890 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 12:49:23,890 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 12:49:23,891 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 12:49:23,891 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 12:49:23,894 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 12:49:23,894 - utils.config_manager - INFO - Config validation complete: 16 users, all data valid
+2025-12-24 12:49:23,895 - utils.config_manager - INFO - Migrated developer UID: chloesummers22388 from UID 0 to UID -2
+2025-12-24 12:49:23,895 - utils.config_manager - INFO - Migrated developer UID: deleted_48397_38459 from UID 0 to UID -1
+2025-12-24 12:49:23,898 - utils.config_manager - INFO - Developer UID migration completed - updated 3 developer accounts
+2025-12-24 12:49:23,898 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 12:49:23,898 - bot - INFO - Initializing global database connection...
+2025-12-24 12:49:23,899 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 12:49:23,899 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 12:49:30,925 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 12:49:31,034 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 12:49:31,037 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 12:49:31,037 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 12:49:31,038 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 12:49:31,038 - utils.config_manager - INFO - Set developer UID 0 for user chloesummers22388
+2025-12-24 12:49:31,038 - utils.config_manager - INFO - Set developer UID 0 for user deleted_48397_38459
+2025-12-24 12:49:31,041 - utils.config_manager - INFO - Fixed UIDs for 16 users (dev: 3, others: 13)
+2025-12-24 12:49:31,041 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 12:49:31,044 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 12:49:31,044 - utils.config_manager - INFO - Config validation complete: 16 users, all data valid
+2025-12-24 12:49:31,044 - utils.config_manager - INFO - Migrated developer UID: chloesummers22388 from UID 0 to UID -2
+2025-12-24 12:49:31,044 - utils.config_manager - INFO - Migrated developer UID: deleted_48397_38459 from UID 0 to UID -1
+2025-12-24 12:49:31,047 - utils.config_manager - INFO - Developer UID migration completed - updated 3 developer accounts
+2025-12-24 12:49:31,047 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 12:49:31,047 - bot - INFO - Initializing global database connection...
+2025-12-24 12:49:31,047 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 12:49:31,047 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 12:49:45,939 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 12:49:46,047 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 12:49:46,050 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 12:49:46,050 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 12:49:46,051 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 12:49:46,051 - utils.config_manager - INFO - Set developer UID 0 for user chloesummers22388
+2025-12-24 12:49:46,051 - utils.config_manager - INFO - Set developer UID 0 for user deleted_48397_38459
+2025-12-24 12:49:46,054 - utils.config_manager - INFO - Fixed UIDs for 16 users (dev: 3, others: 13)
+2025-12-24 12:49:46,054 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 12:49:46,057 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 12:49:46,057 - utils.config_manager - INFO - Config validation complete: 16 users, all data valid
+2025-12-24 12:49:46,057 - utils.config_manager - INFO - Migrated developer UID: chloesummers22388 from UID 0 to UID -2
+2025-12-24 12:49:46,057 - utils.config_manager - INFO - Migrated developer UID: deleted_48397_38459 from UID 0 to UID -1
+2025-12-24 12:49:46,060 - utils.config_manager - INFO - Developer UID migration completed - updated 3 developer accounts
+2025-12-24 12:49:46,060 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 12:49:46,060 - bot - INFO - Initializing global database connection...
+2025-12-24 12:49:46,060 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 12:49:46,060 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 12:49:56,296 - utils.database.global_manager - ERROR - [GlobalDB] Failed to initialize global MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c51ea48d79244a7c3b646, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:49:56,297 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:49:56,297 - bot - ERROR - Error in start_all: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c51ea48d79244a7c3b646, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:49:56,297 - bot - INFO - Starting cleanup...
+2025-12-24 12:49:56,298 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 12:49:56,298 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:49:56,298 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:49:56,298 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:49:56,298 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:49:56,298 - bot - INFO - Global database connection closed
+2025-12-24 12:49:56,298 - bot - INFO - Cleanup completed
+2025-12-24 12:49:56,299 - bot - ERROR - Fatal error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c51ea48d79244a7c3b646, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:49:56,316 - bot - INFO - Initiating shutdown sequence
+2025-12-24 12:49:56,316 - bot - INFO - Starting cleanup...
+2025-12-24 12:49:56,316 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:49:56,316 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:49:56,316 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:49:56,316 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:49:56,316 - bot - INFO - Global database connection closed
+2025-12-24 12:49:56,316 - bot - INFO - Cleanup completed
+2025-12-24 12:50:14,192 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 12:50:14,303 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 12:50:14,305 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 12:50:14,306 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 12:50:14,306 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 12:50:14,307 - utils.config_manager - INFO - Set developer UID 0 for user chloesummers22388
+2025-12-24 12:50:14,307 - utils.config_manager - INFO - Set developer UID 0 for user deleted_48397_38459
+2025-12-24 12:50:14,310 - utils.config_manager - INFO - Fixed UIDs for 16 users (dev: 3, others: 13)
+2025-12-24 12:50:14,310 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 12:50:14,313 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 12:50:14,313 - utils.config_manager - INFO - Config validation complete: 16 users, all data valid
+2025-12-24 12:50:14,313 - utils.config_manager - INFO - Migrated developer UID: chloesummers22388 from UID 0 to UID -2
+2025-12-24 12:50:14,313 - utils.config_manager - INFO - Migrated developer UID: deleted_48397_38459 from UID 0 to UID -1
+2025-12-24 12:50:14,316 - utils.config_manager - INFO - Developer UID migration completed - updated 3 developer accounts
+2025-12-24 12:50:14,316 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 12:50:14,316 - bot - INFO - Initializing global database connection...
+2025-12-24 12:50:14,316 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 12:50:14,316 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 12:50:24,507 - utils.database.global_manager - ERROR - [GlobalDB] Failed to initialize global MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c5206d00ae29fe3f99f9d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:50:24,508 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:50:24,508 - bot - ERROR - Error in start_all: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c5206d00ae29fe3f99f9d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:50:24,508 - bot - INFO - Starting cleanup...
+2025-12-24 12:50:24,508 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 12:50:24,509 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:50:24,509 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:50:24,509 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:50:24,509 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:50:24,509 - bot - INFO - Global database connection closed
+2025-12-24 12:50:24,509 - bot - INFO - Cleanup completed
+2025-12-24 12:50:24,509 - bot - ERROR - Fatal error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c5206d00ae29fe3f99f9d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:50:24,513 - bot - INFO - Initiating shutdown sequence
+2025-12-24 12:50:24,513 - bot - INFO - Starting cleanup...
+2025-12-24 12:50:24,513 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:50:24,513 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:50:24,513 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:50:24,513 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:50:24,513 - bot - INFO - Global database connection closed
+2025-12-24 12:50:24,513 - bot - INFO - Cleanup completed
+2025-12-24 12:52:28,240 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 12:52:28,347 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 12:52:28,350 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 12:52:28,351 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 12:52:28,351 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 12:52:28,351 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 12:52:28,355 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 12:52:28,355 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 12:52:28,355 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 12:52:28,355 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 12:52:28,355 - bot - INFO - Initializing global database connection...
+2025-12-24 12:52:28,355 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 12:52:28,355 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 12:52:38,550 - utils.database.global_manager - ERROR - [GlobalDB] Failed to initialize global MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c528ccd4f0a735cb7e262, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:52:38,550 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:52:38,551 - bot - ERROR - Error in start_all: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c528ccd4f0a735cb7e262, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:52:38,551 - bot - INFO - Starting cleanup...
+2025-12-24 12:52:38,551 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 12:52:38,551 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:52:38,551 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:52:38,551 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:52:38,551 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:52:38,551 - bot - INFO - Global database connection closed
+2025-12-24 12:52:38,552 - bot - INFO - Cleanup completed
+2025-12-24 12:52:38,552 - bot - ERROR - Fatal error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c528ccd4f0a735cb7e262, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:52:38,555 - bot - INFO - Initiating shutdown sequence
+2025-12-24 12:52:38,555 - bot - INFO - Starting cleanup...
+2025-12-24 12:52:38,555 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:52:38,555 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:52:38,555 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:52:38,555 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:52:38,556 - bot - INFO - Global database connection closed
+2025-12-24 12:52:38,556 - bot - INFO - Cleanup completed
+2025-12-24 12:52:45,383 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 12:52:45,491 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 12:52:45,493 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 12:52:45,494 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 12:52:45,494 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 12:52:45,494 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 12:52:45,497 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 12:52:45,498 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 12:52:45,498 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 12:52:45,498 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 12:52:45,498 - bot - INFO - Initializing global database connection...
+2025-12-24 12:52:45,498 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 12:52:45,498 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 12:52:55,722 - utils.database.global_manager - ERROR - [GlobalDB] Failed to initialize global MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c529dc122fbaa49bd52bc, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:52:55,723 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:52:55,723 - bot - ERROR - Error in start_all: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c529dc122fbaa49bd52bc, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:52:55,723 - bot - INFO - Starting cleanup...
+2025-12-24 12:52:55,723 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 12:52:55,724 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:52:55,724 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:52:55,724 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:52:55,724 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:52:55,724 - bot - INFO - Global database connection closed
+2025-12-24 12:52:55,724 - bot - INFO - Cleanup completed
+2025-12-24 12:52:55,724 - bot - ERROR - Fatal error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms), Timeout: 10.0s, Topology Description: <TopologyDescription id: 694c529dc122fbaa49bd52bc, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 10000.0ms, connectTimeoutMS: 10000.0ms)')>]>
+2025-12-24 12:52:55,728 - bot - INFO - Initiating shutdown sequence
+2025-12-24 12:52:55,728 - bot - INFO - Starting cleanup...
+2025-12-24 12:52:55,728 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 12:52:55,728 - bot - INFO - Shutting down global database connection...
+2025-12-24 12:52:55,728 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 12:52:55,728 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 12:52:55,728 - bot - INFO - Global database connection closed
+2025-12-24 12:52:55,729 - bot - INFO - Cleanup completed
+2025-12-24 13:04:58,767 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 13:04:58,881 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 13:04:58,883 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 13:04:58,884 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 13:04:58,884 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 13:04:58,884 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 13:04:58,888 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 13:04:58,888 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 13:04:58,888 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 13:04:58,888 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 13:04:58,888 - bot - INFO - Initializing global database connection...
+2025-12-24 13:04:58,888 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 13:04:58,888 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 13:10:15,869 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 13:10:15,980 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 13:10:15,982 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 13:10:15,983 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 13:10:15,983 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 13:10:15,984 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 13:10:15,987 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 13:10:15,987 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 13:10:15,987 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 13:10:15,987 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 13:10:15,987 - bot - INFO - Initializing global database connection...
+2025-12-24 13:10:15,988 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 13:10:15,988 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 13:10:16,024 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 13:10:16,025 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: []
+2025-12-24 13:10:16,026 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: []
+2025-12-24 13:10:16,026 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: []
+2025-12-24 13:10:16,027 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: []
+2025-12-24 13:10:16,028 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: []
+2025-12-24 13:10:16,028 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: []
+2025-12-24 13:10:16,029 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: []
+2025-12-24 13:10:16,029 - utils.database.global_manager - INFO - [GlobalDB] Missing index: user_messages.user_id_1_created_at_-1
+2025-12-24 13:10:16,029 - utils.database.global_manager - INFO - [GlobalDB] Missing index: user_messages.guild_id_1_user_id_1_created_at_-1
+2025-12-24 13:10:16,030 - utils.database.global_manager - INFO - [GlobalDB] Missing index: user_messages.channel_id_1_created_at_-1
+2025-12-24 13:10:16,030 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.message_id_1
+2025-12-24 13:10:16,031 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.user_id_1_channel_id_1_guild_id_1
+2025-12-24 13:10:16,031 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.user_id_1_deleted_at_-1
+2025-12-24 13:10:16,032 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.message_id_1
+2025-12-24 13:10:16,032 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.user_id_1_channel_id_1_guild_id_1
+2025-12-24 13:10:16,033 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.user_id_1_edited_at_-1
+2025-12-24 13:10:16,033 - utils.database.global_manager - INFO - [GlobalDB] Missing index: mentions.message_id_1
+2025-12-24 13:10:16,034 - utils.database.global_manager - INFO - [GlobalDB] Missing index: mentions.user_id_1_channel_id_1_guild_id_1
+2025-12-24 13:10:16,035 - utils.database.global_manager - INFO - [GlobalDB] Missing index: mentions.target_id_1_mentioner_id_1_created_at_-1
+2025-12-24 13:10:16,035 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 13:10:16,036 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 13:10:16,036 - utils.database.global_manager - INFO - [GlobalDB] Missing index: mentions.expires_at_1
+2025-12-24 13:10:16,037 - utils.database.global_manager - INFO - [GlobalDB] Missing index: authorized_hosts.user_id_1
+2025-12-24 13:10:16,038 - utils.database.global_manager - INFO - [GlobalDB] Missing index: hosted_tokens.host_user_id_1_token_owner_id_1
+2025-12-24 13:10:16,038 - utils.database.global_manager - INFO - [GlobalDB] Missing index: blacklisted_users.user_id_1
+2025-12-24 13:10:16,041 - utils.database.global_manager - INFO - [GlobalDB] Creating 18 missing indexes...
+2025-12-24 13:10:16,041 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 13:10:16,325 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 13:10:16,325 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 16/18 successful
+2025-12-24 13:10:16,326 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 13:10:16,326 - bot - INFO - Global database connection established
+2025-12-24 13:10:16,326 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 13:10:16,585 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 13:10:16,585 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 13:10:16,585 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 13:10:16,585 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 13:10:16,599 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: 'ConfigManager' object has no attribute 'command_prefix'
+2025-12-24 13:10:16,600 - bot - INFO - Started 0 bot instances
+2025-12-24 13:10:16,600 - bot - ERROR - Fatal error: 
+2025-12-24 13:10:16,601 - bot - INFO - Initiating shutdown sequence
+2025-12-24 13:10:16,601 - bot - INFO - Starting cleanup...
+2025-12-24 13:10:16,601 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 13:10:16,601 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 13:10:16,601 - bot - INFO - Shutting down global database connection...
+2025-12-24 13:10:16,601 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 13:10:16,603 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 13:10:16,603 - bot - INFO - Global database connection closed
+2025-12-24 13:10:16,603 - bot - INFO - Cleanup completed
+2025-12-24 13:10:19,583 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 13:10:19,696 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 13:10:19,698 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 13:10:19,699 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 13:10:19,699 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 13:10:19,699 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 13:10:19,703 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 13:10:19,703 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 13:10:19,703 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 13:10:19,703 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 13:10:19,703 - bot - INFO - Initializing global database connection...
+2025-12-24 13:10:19,704 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 13:10:19,704 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 13:10:19,729 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 13:10:19,730 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 13:10:19,731 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 13:10:19,731 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 13:10:19,732 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 13:10:19,733 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 13:10:19,734 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 13:10:19,735 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 13:10:19,735 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 13:10:19,735 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 13:10:19,735 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 13:10:19,735 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 13:10:19,737 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 13:10:19,737 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 13:10:19,737 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 13:10:19,737 - bot - INFO - Global database connection established
+2025-12-24 13:10:19,737 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 13:10:19,964 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 13:10:19,964 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 13:10:19,964 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 13:10:19,964 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 13:10:19,978 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: 'ConfigManager' object has no attribute 'command_prefix'
+2025-12-24 13:10:19,978 - bot - INFO - Started 0 bot instances
+2025-12-24 13:10:19,978 - bot - INFO - Hot reload monitor started
+2025-12-24 13:10:19,979 - bot - ERROR - Fatal error: 
+2025-12-24 13:10:19,979 - bot - INFO - Initiating shutdown sequence
+2025-12-24 13:10:19,979 - bot - INFO - Starting cleanup...
+2025-12-24 13:10:20,979 - bot - INFO - Hot reload monitor stopped
+2025-12-24 13:10:20,979 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 13:10:20,979 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 13:10:20,979 - bot - INFO - Shutting down global database connection...
+2025-12-24 13:10:20,979 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 13:10:20,981 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 13:10:20,981 - bot - INFO - Global database connection closed
+2025-12-24 13:10:20,981 - bot - INFO - Cleanup completed
+2025-12-24 14:39:58,850 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 14:39:58,965 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 14:39:58,967 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 14:39:58,968 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 14:39:58,969 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 14:39:58,969 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 14:39:58,972 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:39:58,973 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:39:58,973 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:39:58,973 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 14:39:58,973 - bot - INFO - Initializing global database connection...
+2025-12-24 14:39:58,973 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 14:39:58,974 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 14:39:58,999 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 14:39:59,001 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 14:39:59,002 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 14:39:59,002 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 14:39:59,003 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 14:39:59,004 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 14:39:59,005 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 14:39:59,006 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 14:39:59,006 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 14:39:59,006 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 14:39:59,007 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 14:39:59,007 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 14:39:59,009 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 14:39:59,009 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 14:39:59,009 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 14:39:59,009 - bot - INFO - Global database connection established
+2025-12-24 14:39:59,010 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 14:39:59,243 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 14:39:59,243 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:39:59,243 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:39:59,243 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:39:59,259 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: 'ConfigManager' object has no attribute 'command_prefix'
+2025-12-24 14:39:59,259 - bot - INFO - Started 0 bot instances
+2025-12-24 14:39:59,259 - bot - ERROR - Fatal error: 
+2025-12-24 14:39:59,260 - bot - INFO - Initiating shutdown sequence
+2025-12-24 14:39:59,260 - bot - INFO - Starting cleanup...
+2025-12-24 14:39:59,260 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 14:39:59,261 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 14:39:59,261 - bot - INFO - Shutting down global database connection...
+2025-12-24 14:39:59,261 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 14:39:59,262 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 14:39:59,262 - bot - INFO - Global database connection closed
+2025-12-24 14:39:59,262 - bot - INFO - Cleanup completed
+2025-12-24 14:42:06,058 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 14:42:06,164 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 14:42:06,166 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 14:42:06,167 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 14:42:06,167 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 14:42:06,167 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 14:42:06,171 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:42:06,171 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:42:06,171 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:42:06,172 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 14:42:06,172 - bot - INFO - Initializing global database connection...
+2025-12-24 14:42:06,172 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 14:42:06,172 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 14:42:06,204 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 14:42:06,206 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 14:42:06,207 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 14:42:06,208 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 14:42:06,208 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 14:42:06,209 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 14:42:06,210 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 14:42:06,212 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 14:42:06,212 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 14:42:06,212 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 14:42:06,213 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 14:42:06,213 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 14:42:06,215 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 14:42:06,216 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 14:42:06,216 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 14:42:06,216 - bot - INFO - Global database connection established
+2025-12-24 14:42:06,216 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 14:42:06,442 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 14:42:06,442 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:42:06,442 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:42:06,443 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:42:06,456 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: 'ConfigManager' object has no attribute 'command_prefix'
+2025-12-24 14:42:06,456 - bot - INFO - Started 0 bot instances
+2025-12-24 14:42:06,456 - bot - ERROR - Fatal error: 
+2025-12-24 14:42:06,457 - bot - INFO - Initiating shutdown sequence
+2025-12-24 14:42:06,458 - bot - INFO - Starting cleanup...
+2025-12-24 14:42:06,458 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 14:42:06,458 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 14:42:06,458 - bot - INFO - Shutting down global database connection...
+2025-12-24 14:42:06,458 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 14:42:06,459 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 14:42:06,459 - bot - INFO - Global database connection closed
+2025-12-24 14:42:06,459 - bot - INFO - Cleanup completed
+2025-12-24 14:43:26,163 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 14:43:26,276 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 14:43:26,279 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 14:43:26,280 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 14:43:26,280 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 14:43:26,280 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 14:43:26,284 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:43:26,284 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:43:26,284 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:43:26,284 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 14:43:26,284 - bot - INFO - Initializing global database connection...
+2025-12-24 14:43:26,285 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 14:43:26,285 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 14:43:26,296 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 14:43:26,297 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 14:43:26,298 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 14:43:26,299 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 14:43:26,300 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 14:43:26,301 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 14:43:26,301 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 14:43:26,302 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 14:43:26,302 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 14:43:26,302 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 14:43:26,303 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 14:43:26,303 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 14:43:26,305 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 14:43:26,305 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 14:43:26,305 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 14:43:26,305 - bot - INFO - Global database connection established
+2025-12-24 14:43:26,305 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 14:43:26,543 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 14:43:26,543 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:43:26,543 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:43:26,543 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:43:26,557 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: 'ConfigManager' object has no attribute 'command_prefix'
+2025-12-24 14:43:26,557 - bot - INFO - Started 0 bot instances
+2025-12-24 14:43:26,557 - bot - ERROR - Fatal error: 
+2025-12-24 14:43:26,559 - bot - INFO - Initiating shutdown sequence
+2025-12-24 14:43:26,559 - bot - INFO - Starting cleanup...
+2025-12-24 14:43:26,559 - utils.config_manager - INFO - ConfigManager cleanup completed
+2025-12-24 14:43:26,559 - utils.config_manager - INFO - All ConfigManager caches cleared
+2025-12-24 14:43:26,559 - bot - INFO - Shutting down global database connection...
+2025-12-24 14:43:26,559 - utils.database.global_manager - INFO - [GlobalDB] Shutting down global database...
+2025-12-24 14:43:26,560 - utils.database.global_manager - INFO - [GlobalDB] Cleaned up global MongoDB resources
+2025-12-24 14:43:26,560 - bot - INFO - Global database connection closed
+2025-12-24 14:43:26,560 - bot - INFO - Cleanup completed
+2025-12-24 14:46:57,953 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 14:46:58,059 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 14:46:58,061 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 14:46:58,062 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 14:46:58,062 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 14:46:58,062 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 14:46:58,065 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:46:58,066 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:46:58,066 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:46:58,066 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 14:46:58,066 - bot - INFO - Initializing global database connection...
+2025-12-24 14:46:58,066 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 14:46:58,067 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 14:46:58,081 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 14:46:58,082 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 14:46:58,083 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 14:46:58,084 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 14:46:58,084 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 14:46:58,085 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 14:46:58,086 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 14:46:58,087 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 14:46:58,087 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 14:46:58,087 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 14:46:58,088 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 14:46:58,088 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 14:46:58,107 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 14:46:58,107 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 14:46:58,107 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 14:46:58,107 - bot - INFO - Global database connection established
+2025-12-24 14:46:58,108 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 14:46:58,344 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 14:46:58,344 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 14:46:58,344 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 14:46:58,344 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 14:46:58,359 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: 'other' is not a valid flag name.
+2025-12-24 14:46:58,359 - bot - INFO - Started 0 bot instances
+2025-12-24 14:46:58,359 - bot - INFO - Running on Windows: Use Ctrl+C to shut down.
+2025-12-24 16:13:14,961 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 16:13:15,070 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 16:13:15,072 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 16:13:15,073 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 16:13:15,073 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 16:13:15,073 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 16:13:15,077 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 16:13:15,077 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 16:13:15,077 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 16:13:15,077 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 16:13:15,077 - bot - INFO - Initializing global database connection...
+2025-12-24 16:13:15,078 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 16:13:15,078 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 16:13:15,090 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 16:13:15,092 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 16:13:15,092 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 16:13:15,093 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 16:13:15,094 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 16:13:15,095 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 16:13:15,096 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 16:13:15,096 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 16:13:15,096 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 16:13:15,097 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 16:13:15,097 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 16:13:15,097 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 16:13:15,099 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 16:13:15,100 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 16:13:15,100 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 16:13:15,100 - bot - INFO - Global database connection established
+2025-12-24 16:13:15,100 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 16:13:15,327 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 16:13:15,327 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 16:13:15,327 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 16:13:15,327 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 16:13:15,358 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: 'ConfigManager' object has no attribute 'auto_delete'
+2025-12-24 16:13:15,359 - bot - INFO - Started 0 bot instances
+2025-12-24 16:13:15,359 - bot - INFO - Running on Windows: Use Ctrl+C to shut down.
+2025-12-24 16:17:10,631 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 16:17:10,775 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 16:17:10,779 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 16:17:10,780 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 16:17:10,780 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 16:17:10,781 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 16:17:10,784 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 16:17:10,785 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 16:17:10,785 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 16:17:10,785 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 16:17:10,785 - bot - INFO - Initializing global database connection...
+2025-12-24 16:17:10,786 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 16:17:10,786 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 16:17:10,800 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 16:17:10,801 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 16:17:10,801 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 16:17:10,802 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 16:17:10,803 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 16:17:10,804 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 16:17:10,805 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 16:17:10,806 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 16:17:10,806 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 16:17:10,806 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 16:17:10,807 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 16:17:10,807 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 16:17:10,832 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 16:17:10,833 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 16:17:10,833 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 16:17:10,833 - bot - INFO - Global database connection established
+2025-12-24 16:17:10,833 - bot - INFO - Starting 1 bot instances concurrently...
+2025-12-24 16:17:11,073 - utils.config_manager - ERROR - Error in sync_load_config: 'bool' object has no attribute 'copy'
+2025-12-24 16:17:11,073 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 16:17:11,073 - utils.config_manager - INFO - Config validation complete: 1 users, all data valid
+2025-12-24 16:17:11,073 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 16:17:11,088 - bot - ERROR - Failed to start bot MTQ0ODQ1Mz: MemberCacheFlags.online requires Intents.presences enabled
+2025-12-24 16:17:11,088 - bot - INFO - Started 0 bot instances
+2025-12-24 16:17:11,088 - bot - INFO - Running on Windows: Use Ctrl+C to shut down.
+2025-12-24 16:22:43,006 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 16:22:43,130 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 16:22:43,133 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 16:22:43,134 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 16:22:43,134 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 16:22:43,134 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 16:22:43,138 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 16:22:43,138 - utils.config_manager - INFO - Config validation complete: 0 users, all data valid
+2025-12-24 16:22:43,138 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 16:22:43,138 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 16:22:43,139 - bot - INFO - Initializing global database connection...
+2025-12-24 16:22:43,139 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 16:22:43,139 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 16:22:43,153 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 16:22:43,154 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 16:22:43,155 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 16:22:43,156 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 16:22:43,156 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 16:22:43,157 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 16:22:43,158 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 16:22:43,159 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 16:22:43,159 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 16:22:43,159 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 16:22:43,160 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 16:22:43,160 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 16:22:43,178 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 16:22:43,178 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 16:22:43,178 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 16:22:43,179 - bot - INFO - Global database connection established
+2025-12-24 16:22:43,179 - bot - ERROR - No valid tokens found to start bots
+2025-12-24 16:22:43,179 - bot - INFO - Running on Windows: Use Ctrl+C to shut down.
+2025-12-24 16:23:19,021 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 16:23:19,140 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 16:23:19,143 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 16:23:19,143 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 16:23:19,144 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 16:23:19,144 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 16:23:19,148 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 16:23:19,148 - utils.config_manager - INFO - Config validation complete: 0 users, all data valid
+2025-12-24 16:23:19,148 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 16:23:19,149 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 16:23:19,149 - bot - INFO - Initializing global database connection...
+2025-12-24 16:23:19,149 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 16:23:19,149 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 16:23:19,162 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 16:23:19,163 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 16:23:19,164 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 16:23:19,165 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 16:23:19,166 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 16:23:19,167 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 16:23:19,168 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 16:23:19,169 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 16:23:19,169 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 16:23:19,169 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 16:23:19,170 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 16:23:19,170 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 16:23:19,188 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 16:23:19,188 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 16:23:19,189 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 16:23:19,189 - bot - INFO - Global database connection established
+2025-12-24 16:23:19,189 - bot - ERROR - No valid tokens found to start bots
+2025-12-24 16:23:19,189 - bot - INFO - Running on Windows: Use Ctrl+C to shut down.
+2025-12-24 16:26:42,911 - bot - INFO - Loaded 5000 items from config/insults.txt
+2025-12-24 16:26:43,036 - bot - INFO - Loaded 370102 items from config/blacktea.txt
+2025-12-24 16:26:43,039 - bot - INFO - Loaded 291 items from config/rizz.txt
+2025-12-24 16:26:43,039 - bot - INFO - Loaded 370 items from config/skibidi.txt
+2025-12-24 16:26:43,040 - utils.config_manager - ERROR - Error extracting user ID from token: token is None or not a string
+2025-12-24 16:26:43,040 - utils.config_manager - WARNING - Removing invalid token key from user_settings: None
+2025-12-24 16:26:43,044 - utils.config_manager - INFO - Starting comprehensive config validation and repair...
+2025-12-24 16:26:43,044 - utils.config_manager - INFO - Config validation complete: 0 users, all data valid
+2025-12-24 16:26:43,044 - utils.config_manager - INFO - No developers found, skipping UID migration
+2025-12-24 16:26:43,044 - bot - WARNING - No DeepL API key set or using placeholder key, shared translator not initialized
+2025-12-24 16:26:43,045 - bot - INFO - Initializing global database connection...
+2025-12-24 16:26:43,045 - utils.database.global_manager - INFO - [GlobalDB] Loaded global MongoDB configuration
+2025-12-24 16:26:43,045 - utils.database.global_manager - INFO - [GlobalDB] Creating global MongoDB connection...
+2025-12-24 16:26:43,081 - utils.database.global_manager - INFO - [GlobalDB] Checking and creating database indexes...
+2025-12-24 16:26:43,083 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for user_messages: ['_id_', 'user_id_1_created_at_-1', 'channel_id_1_created_at_-1', 'guild_id_1_user_id_1_created_at_-1']
+2025-12-24 16:26:43,083 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for deleted_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_deleted_at_-1']
+2025-12-24 16:26:43,084 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for edited_messages: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'user_id_1_edited_at_-1']
+2025-12-24 16:26:43,085 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for mentions: ['_id_', 'message_id_1', 'user_id_1_channel_id_1_guild_id_1', 'target_id_1_mentioner_id_1_created_at_-1', 'expires_at_1']
+2025-12-24 16:26:43,085 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for authorized_hosts: ['_id_', 'user_id_1']
+2025-12-24 16:26:43,086 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for hosted_tokens: ['_id_', 'host_user_id_1_token_owner_id_1']
+2025-12-24 16:26:43,087 - utils.database.global_manager - INFO - [GlobalDB] Existing indexes for blacklisted_users: ['_id_', 'user_id_1']
+2025-12-24 16:26:43,087 - utils.database.global_manager - INFO - [GlobalDB] Missing index: deleted_messages.deleted_at_-1_channel_id_1
+2025-12-24 16:26:43,087 - utils.database.global_manager - INFO - [GlobalDB] Missing index: edited_messages.edited_at_-1_channel_id_1
+2025-12-24 16:26:43,088 - utils.database.global_manager - INFO - [GlobalDB] Creating 2 missing indexes...
+2025-12-24 16:26:43,088 - utils.database.global_manager - INFO - [GlobalDB] Note: users collection uses _id field (already optimally indexed)
+2025-12-24 16:26:43,113 - utils.database.global_manager - WARNING - [GlobalDB] 2 index creation errors: ['TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter', 'TTL indexes are single-field indexes, compound indexes do not support TTL. Index spec: { expireAfter']
+2025-12-24 16:26:43,113 - utils.database.global_manager - INFO - [GlobalDB] Index creation completed: 0/2 successful
+2025-12-24 16:26:43,113 - utils.database.global_manager - INFO - [GlobalDB] Global MongoDB connection established successfully
+2025-12-24 16:26:43,113 - bot - INFO - Global database connection established
+2025-12-24 16:26:43,113 - bot - ERROR - No valid tokens found to start bots
+2025-12-24 16:26:43,113 - bot - INFO - Running on Windows: Use Ctrl+C to shut down.

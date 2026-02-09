@@ -1,0 +1,2044 @@
+{
+  "quests": [
+    {
+      "id": "1359952298775810048",
+      "config": {
+        "id": "1359952298775810048",
+        "config_version": 2,
+        "starts_at": "2025-04-14T17:00:00+00:00",
+        "expires_at": "2025-04-20T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          18,
+          19
+        ],
+        "application": {
+          "link": "http://discord.gg/marathonthegame",
+          "id": "111111111111111111",
+          "name": "Marathon"
+        },
+        "assets": {
+          "hero": "hero.jpg",
+          "hero_video": null,
+          "quest_bar_hero": "questbar_img.png",
+          "quest_bar_hero_video": "quest_bar.webm",
+          "game_tile": "gametile.png",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#9AC603",
+          "secondary": "#000000"
+        },
+        "messages": {
+          "quest_name": "Marathon Reveal",
+          "game_title": "Marathon",
+          "game_publisher": "Bungie"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 103,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 103,
+              "assets": {
+                "video": {
+                  "url": "main_video_v1.mp4",
+                  "thumbnail": "end_card.jpg",
+                  "caption": "captions.vtt",
+                  "transcript": "subs.txt"
+                },
+                "video_low_res": {
+                  "url": "main_video_low_res.mp4",
+                  "thumbnail": "end_card.jpg",
+                  "caption": "captions.vtt",
+                  "transcript": "subs.txt"
+                },
+                "video_hls": {
+                  "url": "main_hls.m3u8",
+                  "thumbnail": "end_card.jpg",
+                  "caption": "captions.vtt",
+                  "transcript": "subs.txt"
+                }
+              },
+              "messages": {
+                "video_title": "Gameplay Reveal Trailer",
+                "video_end_cta_title": "Marathon",
+                "video_end_cta_subtitle": "Join the Discord to signup for the Closed Alpha",
+                "video_end_cta_button_label": "Learn More"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1360316550313283748",
+              "asset": "reward2.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Signal from Tau Ceti Avatar Decoration",
+                "name_with_article": "a Signal from Tau Ceti Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "PLACEHODER FOR CROSS_PLATFORM"
+                }
+              },
+              "expires_at": "2025-06-20T23:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 3
+            }
+          ],
+          "rewards_expire_at": "2025-05-20T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "Gameplay Reveal Trailer",
+            "video_end_cta_title": "Marathon",
+            "video_end_cta_subtitle": "Join the Discord to signup for the Closed Alpha",
+            "video_end_cta_button_label": "Learn More"
+          },
+          "assets": {
+            "video_player_video_hls": "main_hls.m3u8",
+            "video_player_video": "main_video_v1.mp4",
+            "video_player_thumbnail": "end_card.jpg",
+            "video_player_video_low_res": "main_video_low_res.mp4",
+            "video_player_caption": "captions.vtt",
+            "video_player_transcript": "subs.txt",
+            "quest_bar_preview_video": "quest_bar.webm",
+            "quest_bar_preview_thumbnail": "questbar_img.jpg",
+            "quest_home_video": "quest_bar.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1355235504530002112",
+      "config": {
+        "id": "1355235504530002112",
+        "config_version": 2,
+        "starts_at": "2025-04-11T17:00:00+00:00",
+        "expires_at": "2025-04-17T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://pathofexile2.com/",
+          "id": "1328876348361412619",
+          "name": "Path of Exile 2"
+        },
+        "assets": {
+          "hero": "hero_v2.png",
+          "hero_video": null,
+          "quest_bar_hero": "querbar_v2.png",
+          "quest_bar_hero_video": null,
+          "game_tile": "gametile_V2.png",
+          "logotype": "wordmark_v3.png"
+        },
+        "colors": {
+          "primary": "#6e0000",
+          "secondary": "#340106"
+        },
+        "messages": {
+          "quest_name": "Path of Exile 2",
+          "game_title": "Path of Exile 2",
+          "game_publisher": "Grinding Gear Games"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 900,
+              "external_ids": []
+            },
+            "PLAY_ON_XBOX": {
+              "event_name": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "626b2198",
+                "1651188120"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "event_name": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA22041_00",
+                "PPSA23975_00",
+                "PPSA22040_00",
+                "PPSA23974_00"
+              ]
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 900
+            },
+            "PLAY_ON_XBOX": {
+              "type": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "626b2198",
+                "1651188120"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "type": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA22041_00",
+                "PPSA23975_00",
+                "PPSA22040_00",
+                "PPSA23974_00"
+              ]
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1359328540104986636",
+              "asset": "Avatar_Decoration_Dark_Template_.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Face of Corruption Avatar Decoration",
+                "name_with_article": "a Face of Corruption Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "PLACEHODER FOR CROSS_PLATFORM"
+                }
+              },
+              "expires_at": "2025-06-17T00:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 3
+            }
+          ],
+          "rewards_expire_at": "2025-05-17T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1361413474898546819",
+      "config": {
+        "id": "1361413474898546819",
+        "config_version": 2,
+        "starts_at": "2025-04-17T17:00:00+00:00",
+        "expires_at": "2025-04-24T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          18,
+          19
+        ],
+        "application": {
+          "link": "https://1l-go.my.games/r/adid/3885882_2102523/pid/130709/pof/1/f/1/?_1larg_sub=3885882&utm_source=Discord&utm_campaign=Mandragora_DiscordQuest_04.2025&utm_medium=paid&utm_content=3885882&utm_term=Other",
+          "id": "111111111111111111",
+          "name": "Mandragora"
+        },
+        "assets": {
+          "hero": "hero.png",
+          "hero_video": null,
+          "quest_bar_hero": "questbar_img.png",
+          "quest_bar_hero_video": "questbar.webm",
+          "game_tile": "game.png",
+          "logotype": "word_v3.png"
+        },
+        "colors": {
+          "primary": "#CAA767",
+          "secondary": "#333333"
+        },
+        "messages": {
+          "quest_name": "Mandragora",
+          "game_title": "Mandragora: Whispers of the Witch Tree",
+          "game_publisher": "My.Games"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 39,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 39,
+              "assets": {
+                "video": {
+                  "url": "mainvideo_v1.mp4",
+                  "thumbnail": "end_card.png",
+                  "caption": "captions_v1.vtt",
+                  "transcript": "subs.txt"
+                },
+                "video_low_res": {
+                  "url": "mainvideo_low_res.mp4",
+                  "thumbnail": "end_card.png",
+                  "caption": "captions_v1.vtt",
+                  "transcript": "subs.txt"
+                },
+                "video_hls": {
+                  "url": "main_hls.m3u8",
+                  "thumbnail": "end_card.png",
+                  "caption": "captions_v1.vtt",
+                  "transcript": "subs.txt"
+                }
+              },
+              "messages": {
+                "video_title": "Whispers of the Witch Tree",
+                "video_end_cta_title": "Whispers of the Witch Tree",
+                "video_end_cta_subtitle": "Mandragora Whispers of the Witch Tree is out Now!",
+                "video_end_cta_button_label": "Play Now"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 5,
+              "sku_id": "1298745361602449479",
+              "asset": "PLACEHOLDER",
+              "messages": {
+                "name": "1 day of Nitro",
+                "name_with_article": "1 day of Nitro",
+                "redemption_instructions_by_platform": {
+                  "0": "Congrats! You earned 1 day of Nitro."
+                }
+              }
+            }
+          ],
+          "rewards_expire_at": "2025-05-24T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "Whispers of the Witch Tree",
+            "video_end_cta_title": "Whispers of the Witch Tree",
+            "video_end_cta_subtitle": "Mandragora Whispers of the Witch Tree is out Now!",
+            "video_end_cta_button_label": "Play Now"
+          },
+          "assets": {
+            "video_player_video_hls": "main_hls.m3u8",
+            "video_player_video": "mainvideo_v1.mp4",
+            "video_player_thumbnail": "end_card.png",
+            "video_player_video_low_res": "mainvideo_low_res.mp4",
+            "video_player_caption": "captions_v1.vtt",
+            "video_player_transcript": "subs.txt",
+            "quest_bar_preview_video": "questbar.webm",
+            "quest_bar_preview_thumbnail": "questbar_img.png",
+            "quest_home_video": "questbar.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1365416858106200072",
+      "config": {
+        "id": "1365416858106200072",
+        "config_version": 2,
+        "starts_at": "2025-04-29T17:00:00+00:00",
+        "expires_at": "2025-05-06T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://gsght.com/c/429s1b",
+          "id": "1346600025110614026",
+          "name": "Fragpunk"
+        },
+        "assets": {
+          "hero": "hero.jpg",
+          "hero_video": null,
+          "quest_bar_hero": "bar2.jpg",
+          "quest_bar_hero_video": null,
+          "game_tile": "game.jpg",
+          "logotype": "wordv1.png"
+        },
+        "colors": {
+          "primary": "#7A4DFE",
+          "secondary": "#B3FF0F"
+        },
+        "messages": {
+          "quest_name": "Season 1 Chapter 2",
+          "game_title": "Fragpunk",
+          "game_publisher": "Bad Guitar Studio"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 900,
+              "external_ids": []
+            },
+            "PLAY_ON_XBOX": {
+              "event_name": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "9MW715J1P29D",
+                "1616563209"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "event_name": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA26492_00"
+              ]
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 900
+            },
+            "PLAY_ON_XBOX": {
+              "type": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "9MW715J1P29D",
+                "1616563209"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "type": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA26492_00"
+              ]
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1366429159961919569",
+              "asset": "reward.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Friend of Dex Avatar Decoration",
+                "name_with_article": "a Friend of Dex Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "PLACEHODER FOR CROSS_PLATFORM"
+                }
+              },
+              "expires_at": "2025-07-05T23:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 3
+            }
+          ],
+          "rewards_expire_at": "2025-06-05T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1362109389305155594",
+      "config": {
+        "id": "1362109389305155594",
+        "config_version": 2,
+        "starts_at": "2025-04-21T17:00:00+00:00",
+        "expires_at": "2025-04-27T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          12,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://store.steampowered.com/app/2507950?utm_source=discordquest",
+          "id": "1314682894106497096",
+          "name": "Delta Force"
+        },
+        "assets": {
+          "hero": "hero_v1.png",
+          "hero_video": "hero_video_v1.webm",
+          "quest_bar_hero": "bar.png",
+          "quest_bar_hero_video": "bar_video.webm",
+          "game_tile": "game.png",
+          "logotype": "word.png"
+        },
+        "colors": {
+          "primary": "#0CA766",
+          "secondary": "#1A1A1A"
+        },
+        "messages": {
+          "quest_name": "Global Launch",
+          "game_title": "Delta Force",
+          "game_publisher": "Team Jade"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 900,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 900
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1362863977222115430",
+              "asset": "delta_force_quest_4_2025.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Hackclaw Avatar Decoration",
+                "name_with_article": "a Hackclaw Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "PLACEHODER FOR CROSS_PLATFORM"
+                }
+              },
+              "expires_at": "2025-06-27T23:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 3
+            }
+          ],
+          "rewards_expire_at": "2025-05-27T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1356396007298044110",
+      "config": {
+        "id": "1356396007298044110",
+        "config_version": 2,
+        "starts_at": "2025-04-04T17:00:00+00:00",
+        "expires_at": "2025-04-10T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          18,
+          19
+        ],
+        "application": {
+          "link": "https://xbox.com/pcgamepass",
+          "id": "111111111111111111",
+          "name": "Xbox Game Studios"
+        },
+        "assets": {
+          "hero": "hero_v3.jpg",
+          "hero_video": null,
+          "quest_bar_hero": "pcgamepass.png",
+          "quest_bar_hero_video": "questbar_v4.webm",
+          "game_tile": "gametile.jpg",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#141414",
+          "secondary": "#107c10"
+        },
+        "messages": {
+          "quest_name": "PC Game Pass",
+          "game_title": "Xbox Game Studios",
+          "game_publisher": "Xbox"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 69,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 69,
+              "assets": {
+                "video": {
+                  "url": "mainvideo_v1.mp4",
+                  "thumbnail": "endcard.jpg",
+                  "caption": "pcpass_caps.vtt",
+                  "transcript": "pcpass_subs.txt"
+                },
+                "video_low_res": {
+                  "url": "mainvideo_low_res.mp4",
+                  "thumbnail": "endcard.jpg",
+                  "caption": "pcpass_caps.vtt",
+                  "transcript": "pcpass_subs.txt"
+                },
+                "video_hls": {
+                  "url": "main_hls.m3u8",
+                  "thumbnail": "endcard.jpg",
+                  "caption": "pcpass_caps.vtt",
+                  "transcript": "pcpass_subs.txt"
+                }
+              },
+              "messages": {
+                "video_title": "It's a Journey video",
+                "video_end_cta_title": "PC Game Pass Quest",
+                "video_end_cta_subtitle": "Claim a 7-day PC Game Pass trial"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 1,
+              "sku_id": "1356396007298044112",
+              "asset": "reward.jpg",
+              "asset_video": null,
+              "messages": {
+                "name": "7-day Trial",
+                "name_with_article": "a 7-day Trial",
+                "redemption_instructions_by_platform": {
+                  "0": "1. To redeem your 7-day PC Game Pass trial code visit microsoft.com/redeem by April 15th 2025 11:59 PM PST  \n\n2. Valid payment method required. Subscription continues automatically at then-current regular membership rate unless cancelled through your Microsoft Account.\n\n**Limit: 1 per person/account.**\n\nSubject to the Microsoft Services Agreement, Game Pass terms and system requirements at: xbox.com/subscriptionterms.  \n**Available in US, CA, MX, BR, UK, FR, DE, AU, JP, TH, MY, SG** \n\n**This reward is not available in Korea, Argentina, China, Russia, and Turkey.**"
+                }
+              },
+              "approximate_count": null,
+              "redemption_link": null
+            }
+          ],
+          "rewards_expire_at": "2025-05-10T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "It's a Journey video",
+            "video_end_cta_title": "PC Game Pass Quest",
+            "video_end_cta_subtitle": "Claim a 7-day PC Game Pass trial"
+          },
+          "assets": {
+            "video_player_video_hls": "main_hls.m3u8",
+            "video_player_video": "mainvideo_v1.mp4",
+            "video_player_thumbnail": "endcard.jpg",
+            "video_player_video_low_res": "mainvideo_low_res.mp4",
+            "video_player_caption": "pcpass_caps.vtt",
+            "video_player_transcript": "pcpass_subs.txt",
+            "quest_bar_preview_video": "questbar_v4.webm",
+            "quest_bar_preview_thumbnail": "pcgamepass.png",
+            "quest_home_video": "questbar_v4.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1362170603402166545",
+      "config": {
+        "id": "1362170603402166545",
+        "config_version": 2,
+        "starts_at": "2025-04-29T17:00:00+00:00",
+        "expires_at": "2025-05-13T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://p.itddo2.com/DCquest",
+          "id": "1238113262969557002",
+          "name": "Arena Breakout: Infinite"
+        },
+        "assets": {
+          "hero": "hero.png",
+          "hero_video": "hero_video.webm",
+          "quest_bar_hero": "questbar.png",
+          "quest_bar_hero_video": "questbar_video.webm",
+          "game_tile": "game.png",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#e38b3f",
+          "secondary": "#ffa200"
+        },
+        "messages": {
+          "quest_name": "Arena Breakout: Infinite",
+          "game_title": "Arena Breakout: Infinite",
+          "game_publisher": "MoreFun Studios"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 900,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 900
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 1,
+              "sku_id": "1362170603402166547",
+              "asset": "reward.jpg",
+              "asset_video": null,
+              "messages": {
+                "name": "Vector 45 Skin & 7-Day Secure Case",
+                "name_with_article": "a Vector 45 Skin & 7-Day Secure Case",
+                "redemption_instructions_by_platform": {
+                  "0": "Congratulations on completing the quest! You have two ways to claim your reward:\n\n**Path 1**\n- Visit [playabi.com](https://www.arenabreakoutinfinite.com/act/a20240731cdk) to redeem the code.  \n**Path 2**\n- Launch the game and find **Reward Code Redemption** in the **Events** section.\n\n**Rewards**\n- **Redwood Stain Vector 45 Micro SMG (skin)**\n- **7-Day Elite Membership Card** (including a 2x2 secure case)\n\n**Support and Assistance**\n**Arena Breakout: Infinite New Season: IGNITION** is now available to play for free.  \nIf you encounter any issues during the redemption process, please join our Discord server: [Arena Breakout: Infinite](https://discord.com/invite/arenabreakoutinfinite) for assistance and the latest information on future events and more rewards."
+                }
+              },
+              "approximate_count": null,
+              "redemption_link": null
+            }
+          ],
+          "rewards_expire_at": "2025-06-12T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": {
+        "user_id": "512301602292629504",
+        "quest_id": "1362170603402166545",
+        "enrolled_at": "2025-05-08T00:56:41.444630+00:00",
+        "completed_at": null,
+        "claimed_at": null,
+        "claimed_tier": null,
+        "last_stream_heartbeat_at": null,
+        "stream_progress_seconds": 0,
+        "dismissed_quest_content": 0,
+        "progress": {}
+      },
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1362494369231540315",
+      "config": {
+        "id": "1362494369231540315",
+        "config_version": 2,
+        "starts_at": "2025-04-18T17:00:00+00:00",
+        "expires_at": "2025-04-24T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          18,
+          19
+        ],
+        "application": {
+          "link": "https://www.himmovie.com?utm_source=discord&utm_medium=quest_link",
+          "id": "111111111111111111",
+          "name": "HIM"
+        },
+        "assets": {
+          "hero": "hero.png",
+          "hero_video": null,
+          "quest_bar_hero": "bar_img.png",
+          "quest_bar_hero_video": "quesbar_v2.webm",
+          "game_tile": "game.png",
+          "logotype": "word.png"
+        },
+        "colors": {
+          "primary": "#333848",
+          "secondary": "#000000"
+        },
+        "messages": {
+          "quest_name": "HIM OFFICIAL TEASER",
+          "game_title": "HIM",
+          "game_publisher": "Universal Pictures"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 104,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 104,
+              "assets": {
+                "video": {
+                  "url": "main_video_v1.mp4",
+                  "thumbnail": "endcard_v2.jpg",
+                  "caption": "captions_v1.vtt",
+                  "transcript": "transcript.txt"
+                },
+                "video_low_res": {
+                  "url": "main_video_low_res.mp4",
+                  "thumbnail": "endcard_v2.jpg",
+                  "caption": "captions_v1.vtt",
+                  "transcript": "transcript.txt"
+                },
+                "video_hls": {
+                  "url": "main_hls.m3u8",
+                  "thumbnail": "endcard_v2.jpg",
+                  "caption": "captions_v1.vtt",
+                  "transcript": "transcript.txt"
+                }
+              },
+              "messages": {
+                "video_title": "HIM OFFICIAL TEASER",
+                "video_end_cta_title": "HIM",
+                "video_end_cta_subtitle": "HIM Only in theaters September 19",
+                "video_end_cta_button_label": "Learn More"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 5,
+              "sku_id": "1298745361602449479",
+              "asset": "PLACEHOLDER",
+              "messages": {
+                "name": "1 day of Nitro",
+                "name_with_article": "1 day of Nitro",
+                "redemption_instructions_by_platform": {
+                  "0": "Congrats! You earned 1 day of Nitro."
+                }
+              }
+            }
+          ],
+          "rewards_expire_at": "2025-05-24T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "HIM OFFICIAL TEASER",
+            "video_end_cta_title": "HIM",
+            "video_end_cta_subtitle": "HIM Only in theaters September 19",
+            "video_end_cta_button_label": "Learn More"
+          },
+          "assets": {
+            "video_player_video_hls": "main_hls.m3u8",
+            "video_player_video": "main_video_v1.mp4",
+            "video_player_thumbnail": "endcard_v2.jpg",
+            "video_player_video_low_res": "main_video_low_res.mp4",
+            "video_player_caption": "captions_v1.vtt",
+            "video_player_transcript": "transcript.txt",
+            "quest_bar_preview_video": "quesbar_v2.webm",
+            "quest_bar_preview_thumbnail": "bar_img.png",
+            "quest_home_video": "quesbar_v2.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1354932025290919966",
+      "config": {
+        "id": "1354932025290919966",
+        "config_version": 2,
+        "starts_at": "2025-04-03T17:00:00+00:00",
+        "expires_at": "2025-04-16T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        "application": {
+          "link": "https://www.callofduty.com/warzone?utm_source=discord_quest&utm_medium=referral&utm_campaign=sierradiscordquest",
+          "id": "1306357637893587014",
+          "name": "Call of Duty: Warzone"
+        },
+        "assets": {
+          "hero": "hero.jpg",
+          "hero_video": null,
+          "quest_bar_hero": "questbar.jpg",
+          "quest_bar_hero_video": null,
+          "game_tile": "gamename.jpg",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#1F995C",
+          "secondary": "#000000"
+        },
+        "messages": {
+          "quest_name": "COD: Warzone",
+          "game_title": "Call of Duty: Warzone",
+          "game_publisher": "Activision"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 900,
+              "external_ids": []
+            },
+            "PLAY_ON_XBOX": {
+              "event_name": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "2001700854"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "event_name": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA01649_00",
+                "PPSA07950_00",
+                "PPSA07951_00",
+                "CUSA34031_00",
+                "CUSA34029_00",
+                "PPSA07952_00",
+                "CUSA34030_00",
+                "CUSA23827_00",
+                "CUSA34032_00",
+                "PPSA07953_00"
+              ]
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 900
+            },
+            "PLAY_ON_XBOX": {
+              "type": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "2001700854"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "type": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA01649_00",
+                "PPSA07950_00",
+                "PPSA07951_00",
+                "CUSA34031_00",
+                "CUSA34029_00",
+                "PPSA07952_00",
+                "CUSA34030_00",
+                "CUSA23827_00",
+                "CUSA34032_00",
+                "PPSA07953_00"
+              ]
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 1,
+              "sku_id": "1354932025290919968",
+              "asset": "rewardv2.jpg",
+              "asset_video": null,
+              "messages": {
+                "name": "Calling Card + 2WXP Token",
+                "name_with_article": "a Calling Card + 2WXP Token",
+                "redemption_instructions_by_platform": {
+                  "0": "1. To redeem your COD: Warzone Quest reward, visit Call of Duty\u2019s code redemption website (callofduty.com/redeem) and log in to your account.\n\n2. Enter your code to obtain your Calling Card and Double XP Token"
+                }
+              },
+              "approximate_count": null,
+              "redemption_link": null
+            }
+          ],
+          "rewards_expire_at": "2025-05-16T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1360303440718467102",
+      "config": {
+        "id": "1360303440718467102",
+        "config_version": 2,
+        "starts_at": "2025-04-22T17:00:00+00:00",
+        "expires_at": "2025-04-29T00:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://overwatch.blizzard.com/news/24178102?utm_source=Discord&utm_medium=PaidXDM",
+          "id": "356875221078245376",
+          "name": "Overwatch 2"
+        },
+        "assets": {
+          "hero": "hero_image.png",
+          "hero_video": null,
+          "quest_bar_hero": "quest_bar_background.png",
+          "quest_bar_hero_video": null,
+          "game_tile": "logo.png",
+          "logotype": "wordmark_new.png"
+        },
+        "colors": {
+          "primary": "#8d7353",
+          "secondary": "#001732"
+        },
+        "messages": {
+          "quest_name": "New Way to Play",
+          "game_title": "Overwatch 2",
+          "game_publisher": "Blizzard"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 900,
+              "external_ids": []
+            },
+            "PLAY_ON_XBOX": {
+              "event_name": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "94618376",
+                "05A3C308"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "event_name": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "CUSA04065_00",
+                "CUSA01842_00",
+                "CUSA03974_00",
+                "PPSA08259_00",
+                "PPSA07821_00",
+                "PPSA07805_00",
+                "CUSA03975_00"
+              ]
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 900
+            },
+            "PLAY_ON_XBOX": {
+              "type": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "94618376",
+                "05A3C308"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "type": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "CUSA04065_00",
+                "CUSA01842_00",
+                "CUSA03974_00",
+                "PPSA08259_00",
+                "PPSA07821_00",
+                "PPSA07805_00",
+                "CUSA03975_00"
+              ]
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 1,
+              "sku_id": "1360303440718467104",
+              "asset": "reward_tile.png",
+              "asset_video": null,
+              "messages": {
+                "name": "5 Loot Boxes",
+                "name_with_article": "5 Loot Boxes",
+                "redemption_instructions_by_platform": {
+                  "0": "1. Login to the Battle.net Desktop App  \n2. Click your profile icon at the top right corner of the App.  \n3. Click Redeem Code.          \n4. You can also redeem at https://shop.battle.net/ by navigating to Redeem Code under Account. \n \n**Note: Codes must be redeemed on Battle.net specifically, but will appear for any platform where that user has a license.**"
+                }
+              },
+              "approximate_count": null,
+              "redemption_link": null
+            }
+          ],
+          "rewards_expire_at": "2025-05-12T00:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1354545229297881323",
+      "config": {
+        "id": "1354545229297881323",
+        "config_version": 2,
+        "starts_at": "2025-04-28T17:00:00+00:00",
+        "expires_at": "2025-05-06T00:00:00+00:00",
+        "features": [
+          3,
+          8,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://www.missionimpossible.com/",
+          "id": "1353680152814555229",
+          "name": "Mission: Impossible Puzzle"
+        },
+        "assets": {
+          "hero": "hero.jpg",
+          "hero_video": "hero.mp4",
+          "quest_bar_hero": "bar_img.png",
+          "quest_bar_hero_video": "bar.webm",
+          "game_tile": "game.png",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#b76d42",
+          "secondary": "#000000"
+        },
+        "messages": {
+          "quest_name": "Mission: Impossible Puzzle",
+          "game_title": "Mission: Impossible Puzzle",
+          "game_publisher": "Paramount"
+        },
+        "task_config": {
+          "type": 2,
+          "join_operator": "or",
+          "tasks": {
+            "progress": {
+              "event_name": "progress",
+              "title": "Mission: Impossible Quest",
+              "description": "Solve the first puzzle in the Mission: Impossible Puzzle Discord Activity to win 1 day of Nitro!",
+              "target": 1
+            }
+          },
+          "enrollment_url": "\"https://www.discord.com\"",
+          "developer_application_id": "1353680152814555229"
+        },
+        "task_config_v2": {
+          "tasks": {
+            "ACHIEVEMENT_IN_ACTIVITY": {
+              "type": "ACHIEVEMENT_IN_ACTIVITY",
+              "target": 1,
+              "event_name": "progress",
+              "messages": {
+                "task_title": "Mission: Impossible Quest",
+                "task_description": "Solve the first puzzle in the Mission: Impossible Puzzle Discord Activity to win 1 day of Nitro!"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 5,
+              "sku_id": "1298745361602449479",
+              "asset": "PLACEHOLDER",
+              "messages": {
+                "name": "1 day of Nitro",
+                "name_with_article": "1 day of Nitro",
+                "redemption_instructions_by_platform": {
+                  "0": "Congrats! You earned 1 day of Nitro."
+                }
+              }
+            }
+          ],
+          "rewards_expire_at": "2025-06-04T23:59:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1357117252993814638",
+      "config": {
+        "id": "1357117252993814638",
+        "config_version": 2,
+        "starts_at": "2025-04-07T17:00:00+00:00",
+        "expires_at": "2025-04-14T06:59:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://www.max.com/the-last-of-us",
+          "id": "111111111111111111",
+          "name": "The Last of Us"
+        },
+        "assets": {
+          "hero": "hero.jpg",
+          "hero_video": null,
+          "quest_bar_hero": "questbar_img.png",
+          "quest_bar_hero_video": "quest_bar_video.webm",
+          "game_tile": "gametile.jpg",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#203D35",
+          "secondary": "#677959"
+        },
+        "messages": {
+          "quest_name": "The Last of Us Season 2",
+          "game_title": "The Last of Us",
+          "game_publisher": "Max"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 29,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 29,
+              "assets": {
+                "video": {
+                  "url": "main_video_v1.mp4",
+                  "thumbnail": "endcard.jpg",
+                  "caption": "lastofus_v3.vtt",
+                  "transcript": "lastofus_subs.txt"
+                },
+                "video_low_res": {
+                  "url": "main_video_low_res.mp4",
+                  "thumbnail": "endcard.jpg",
+                  "caption": "lastofus_v3.vtt",
+                  "transcript": "lastofus_subs.txt"
+                }
+              },
+              "messages": {
+                "video_title": "The Last of Us Season 2",
+                "video_end_cta_title": "The Last of Us Season 2",
+                "video_end_cta_subtitle": "The Last of Us returns this Sunday at 9pm on Max.",
+                "video_end_cta_button_label": "Learn More"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1357852406079291593",
+              "asset": "CCQ09-TUL_AD_The_Last_of_Us_288px_V01.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Clicker Avatar Decoration",
+                "name_with_article": "a Clicker Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "This collectible can be redeemed on Discord! Go to your Gift Inventory to redeem and equip."
+                }
+              },
+              "expires_at": "2025-06-13T23:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 1
+            }
+          ],
+          "rewards_expire_at": "2025-05-13T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "The Last of Us Season 2",
+            "video_end_cta_title": "The Last of Us Season 2",
+            "video_end_cta_subtitle": "The Last of Us returns this Sunday at 9pm on Max.",
+            "video_end_cta_button_label": "Learn More"
+          },
+          "assets": {
+            "video_player_video_hls": null,
+            "video_player_video": "main_video_v1.mp4",
+            "video_player_thumbnail": "endcard.jpg",
+            "video_player_video_low_res": "main_video_low_res.mp4",
+            "video_player_caption": "lastofus_v3.vtt",
+            "video_player_transcript": "lastofus_subs.txt",
+            "quest_bar_preview_video": "quest_bar_video.webm",
+            "quest_bar_preview_thumbnail": "questbar_img.png",
+            "quest_home_video": "quest_bar_video.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1362097608524435697",
+      "config": {
+        "id": "1362097608524435697",
+        "config_version": 2,
+        "starts_at": "2025-05-06T17:00:00+00:00",
+        "expires_at": "2025-05-12T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://doom.com",
+          "id": "111111111111111111",
+          "name": "DOOM: The Dark Ages"
+        },
+        "assets": {
+          "hero": "hero.jpg",
+          "hero_video": null,
+          "quest_bar_hero": "bar_img.png",
+          "quest_bar_hero_video": "bar.webm",
+          "game_tile": "game.png",
+          "logotype": "word.png"
+        },
+        "colors": {
+          "primary": "#828854",
+          "secondary": "#79401B"
+        },
+        "messages": {
+          "quest_name": "DOOM: The Dark Ages",
+          "game_title": "DOOM: The Dark Ages",
+          "game_publisher": "Bethesda"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 171,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 171,
+              "assets": {
+                "video": {
+                  "url": "video_v1.mp4",
+                  "thumbnail": "end_card.jpg",
+                  "caption": "captions2.vtt",
+                  "transcript": "subs3.txt"
+                },
+                "video_low_res": {
+                  "url": "video_low_res.mp4",
+                  "thumbnail": "end_card.jpg",
+                  "caption": "captions2.vtt",
+                  "transcript": "subs3.txt"
+                }
+              },
+              "messages": {
+                "video_title": "the Offical Trailer 2",
+                "video_end_cta_title": "DOOM: The Dark Ages Quest",
+                "video_end_cta_subtitle": "Claim your Discord Avatar Decoration",
+                "video_end_cta_button_label": "Pre-Order Now"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1362863977222115433",
+              "asset": "doom_quest_4_2025.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Shield Saw Avatar Decoration",
+                "name_with_article": "a Shield Saw Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "PLACEHODER FOR CROSS_PLATFORM"
+                }
+              },
+              "expires_at": "2025-07-11T23:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 3
+            }
+          ],
+          "rewards_expire_at": "2025-06-11T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "the Offical Trailer 2",
+            "video_end_cta_title": "DOOM: The Dark Ages Quest",
+            "video_end_cta_subtitle": "Claim your Discord Avatar Decoration",
+            "video_end_cta_button_label": "Pre-Order Now"
+          },
+          "assets": {
+            "video_player_video_hls": null,
+            "video_player_video": "video_v1.mp4",
+            "video_player_thumbnail": "end_card.jpg",
+            "video_player_video_low_res": "video_low_res.mp4",
+            "video_player_caption": "captions2.vtt",
+            "video_player_transcript": "subs3.txt",
+            "quest_bar_preview_video": "bar.webm",
+            "quest_bar_preview_thumbnail": "bar_img.png",
+            "quest_home_video": "bar.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1358865241210880182",
+      "config": {
+        "id": "1358865241210880182",
+        "config_version": 2,
+        "starts_at": "2025-04-11T17:00:00+00:00",
+        "expires_at": "2025-04-19T06:59:00+00:00",
+        "features": [
+          3,
+          9,
+          12,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://www.marvelrivals.com/",
+          "id": "1314395942253756416",
+          "name": "Marvel Rivals"
+        },
+        "assets": {
+          "hero": "heroimg.png",
+          "hero_video": "herovideo_trim.webm",
+          "quest_bar_hero": "questbar_img_v3.png",
+          "quest_bar_hero_video": "questbar_v3.webm",
+          "game_tile": "gametile.png",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#B49E15",
+          "secondary": "#01227F"
+        },
+        "messages": {
+          "quest_name": "Marvel Rivals S2",
+          "game_title": "Marvel Rivals",
+          "game_publisher": "NetEase Games"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 900,
+              "external_ids": []
+            },
+            "PLAY_ON_XBOX": {
+              "event_name": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "1794906646",
+                "1758492876"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "event_name": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA21668_00",
+                "PPSA21669_00"
+              ]
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 900
+            },
+            "PLAY_ON_XBOX": {
+              "type": "PLAY_ON_XBOX",
+              "target": 900,
+              "external_ids": [
+                "1794906646",
+                "1758492876"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "type": "PLAY_ON_PLAYSTATION",
+              "target": 900,
+              "external_ids": [
+                "PPSA21668_00",
+                "PPSA21669_00"
+              ]
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1359953429778137322",
+              "asset": "marvelsnap_2025_04.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Emma Frost Avatar Decoration",
+                "name_with_article": "an Emma Frost Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "PLACEHODER FOR CROSS_PLATFORM"
+                }
+              },
+              "expires_at": "2025-06-18T07:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 3
+            }
+          ],
+          "rewards_expire_at": "2025-05-17T00:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1359985000526909820",
+      "config": {
+        "id": "1359985000526909820",
+        "config_version": 2,
+        "starts_at": "2025-04-15T17:00:00+00:00",
+        "expires_at": "2025-04-20T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://www.fortnite.com/",
+          "id": "432980957394370572",
+          "name": "Fortnite"
+        },
+        "assets": {
+          "hero": "hero.png",
+          "hero_video": null,
+          "quest_bar_hero": "bar_v2.png",
+          "quest_bar_hero_video": null,
+          "game_tile": "game.png",
+          "logotype": "word.png"
+        },
+        "colors": {
+          "primary": "#1AB5E7",
+          "secondary": "#000000"
+        },
+        "messages": {
+          "quest_name": "Fortnite Reload",
+          "game_title": "Fortnite Reload",
+          "game_publisher": "Epic Games"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "event_name": "PLAY_ON_DESKTOP",
+              "target": 1800,
+              "external_ids": []
+            },
+            "PLAY_ON_XBOX": {
+              "event_name": "PLAY_ON_XBOX",
+              "target": 1800,
+              "external_ids": [
+                "267695549"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "event_name": "PLAY_ON_PLAYSTATION",
+              "target": 1800,
+              "external_ids": [
+                "PPSA01923_00",
+                "CUSA07669_00",
+                "CUSA07022_00",
+                "PPSA01922_00"
+              ]
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "PLAY_ON_DESKTOP": {
+              "type": "PLAY_ON_DESKTOP",
+              "target": 1800
+            },
+            "PLAY_ON_XBOX": {
+              "type": "PLAY_ON_XBOX",
+              "target": 1800,
+              "external_ids": [
+                "267695549"
+              ]
+            },
+            "PLAY_ON_PLAYSTATION": {
+              "type": "PLAY_ON_PLAYSTATION",
+              "target": 1800,
+              "external_ids": [
+                "PPSA01923_00",
+                "CUSA07669_00",
+                "CUSA07022_00",
+                "PPSA01922_00"
+              ]
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 3,
+              "sku_id": "1360353397865447707",
+              "asset": "reward2.mp4",
+              "asset_video": null,
+              "messages": {
+                "name": "Slurp Barrel Avatar Decoration",
+                "name_with_article": "a Slurp Barrel Avatar Decoration",
+                "redemption_instructions_by_platform": {
+                  "0": "PLACEHODER FOR CROSS_PLATFORM"
+                }
+              },
+              "expires_at": "2025-06-20T23:00:00+00:00",
+              "expires_at_premium": null,
+              "expiration_mode": 1
+            }
+          ],
+          "rewards_expire_at": "2025-05-20T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1366884556954931322",
+      "config": {
+        "id": "1366884556954931322",
+        "config_version": 2,
+        "starts_at": "2025-05-05T17:00:00+00:00",
+        "expires_at": "2025-05-26T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://www.meta.com/quest/civilization7-vr/?utm_source=%esid!&utm_medium=rv&utm_campaign=%ebuy!&utm_term=%epid!&utm_content=%ecid!&utm_funnel=dgen",
+          "id": "111111111111111111",
+          "name": "SID MEIER'S CIVILIZATION VII"
+        },
+        "assets": {
+          "hero": "hero2.png",
+          "hero_video": null,
+          "quest_bar_hero": "bar2.png",
+          "quest_bar_hero_video": "bar2.webm",
+          "game_tile": "logo.png",
+          "logotype": "word2.png"
+        },
+        "colors": {
+          "primary": "#8C715D",
+          "secondary": "#F3F3F4"
+        },
+        "messages": {
+          "quest_name": "Civilization\u00ae VII - VR Trailer",
+          "game_title": "SID MEIER'S CIVILIZATION VII",
+          "game_publisher": "Meta"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 29,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 29,
+              "assets": {
+                "video": {
+                  "url": "main_video_v1.mp4",
+                  "thumbnail": "endcard2.png",
+                  "caption": "PLACEHOLDER.vtt",
+                  "transcript": "PLACEHOLDER.txt"
+                },
+                "video_low_res": {
+                  "url": "main_video_low_res.mp4",
+                  "thumbnail": "endcard2.png",
+                  "caption": "PLACEHOLDER.vtt",
+                  "transcript": "PLACEHOLDER.txt"
+                }
+              },
+              "messages": {
+                "video_title": "SID MEIER'S CIVILIZATION\u00ae VII - VR TRAILER",
+                "video_end_cta_title": "Only on Meta Quest 3/3S",
+                "video_end_cta_subtitle": "Only on Meta Quest 3/3S",
+                "video_end_cta_button_label": "Shop Now"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 5,
+              "sku_id": "1298745361602449479",
+              "asset": "PLACEHOLDER",
+              "messages": {
+                "name": "1 day of Nitro",
+                "name_with_article": "1 day of Nitro",
+                "redemption_instructions_by_platform": {
+                  "0": "Congrats! You earned 1 day of Nitro."
+                }
+              }
+            }
+          ],
+          "rewards_expire_at": "2025-06-25T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "SID MEIER'S CIVILIZATION\u00ae VII - VR TRAILER",
+            "video_end_cta_title": "Only on Meta Quest 3/3S",
+            "video_end_cta_subtitle": "Only on Meta Quest 3/3S",
+            "video_end_cta_button_label": "Shop Now"
+          },
+          "assets": {
+            "video_player_video_hls": null,
+            "video_player_video": "main_video_v1.mp4",
+            "video_player_thumbnail": "endcard2.png",
+            "video_player_video_low_res": "main_video_low_res.mp4",
+            "video_player_caption": "PLACEHOLDER.vtt",
+            "video_player_transcript": "PLACEHOLDER.txt",
+            "quest_bar_preview_video": "bar2.webm",
+            "quest_bar_preview_thumbnail": "bar2.png",
+            "quest_home_video": "bar2.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    },
+    {
+      "id": "1356415968183844924",
+      "config": {
+        "id": "1356415968183844924",
+        "config_version": 2,
+        "starts_at": "2025-04-03T17:00:00+00:00",
+        "expires_at": "2025-04-09T23:00:00+00:00",
+        "features": [
+          3,
+          9,
+          14,
+          15,
+          16,
+          19
+        ],
+        "application": {
+          "link": "https://www.m3ganmovie.com/",
+          "id": "111111111111111111",
+          "name": "M3GAN 2.0"
+        },
+        "assets": {
+          "hero": "hero.jpg",
+          "hero_video": null,
+          "quest_bar_hero": "questbar_img.png",
+          "quest_bar_hero_video": "questbar.webm",
+          "game_tile": "gametile.png",
+          "logotype": "wordmark.png"
+        },
+        "colors": {
+          "primary": "#FF7ABF",
+          "secondary": "#000000"
+        },
+        "messages": {
+          "quest_name": "M3GAN 2.0 Trailer",
+          "game_title": "M3GAN 2.0",
+          "game_publisher": "Universal Pictures"
+        },
+        "task_config": {
+          "type": 1,
+          "join_operator": "or",
+          "tasks": {
+            "WATCH_VIDEO": {
+              "event_name": "WATCH_VIDEO",
+              "target": 165,
+              "external_ids": []
+            }
+          }
+        },
+        "task_config_v2": {
+          "tasks": {
+            "WATCH_VIDEO": {
+              "type": "WATCH_VIDEO",
+              "target": 165,
+              "assets": {
+                "video": {
+                  "url": "main_video_v1.mp4",
+                  "thumbnail": "end_card.jpg",
+                  "caption": "captions_v2.vtt",
+                  "transcript": "subs_v2.txt"
+                },
+                "video_low_res": {
+                  "url": "main_video_low_res.mp4",
+                  "thumbnail": "end_card.jpg",
+                  "caption": "captions_v2.vtt",
+                  "transcript": "subs_v2.txt"
+                }
+              },
+              "messages": {
+                "video_title": "M3GAN 2.0 Trailer",
+                "video_end_cta_title": "M3GAN 2.0",
+                "video_end_cta_subtitle": "Only in Theaters June 27"
+              }
+            }
+          },
+          "join_operator": "or"
+        },
+        "rewards_config": {
+          "assignment_method": 1,
+          "rewards": [
+            {
+              "type": 5,
+              "sku_id": "1298745361602449479",
+              "asset": "PLACEHOLDER",
+              "messages": {
+                "name": "1 day of Nitro",
+                "name_with_article": "1 day of Nitro",
+                "redemption_instructions_by_platform": {
+                  "0": "Congrats! You earned 1 day of Nitro."
+                }
+              }
+            }
+          ],
+          "rewards_expire_at": "2025-05-09T23:00:00+00:00",
+          "platforms": [
+            0
+          ]
+        },
+        "video_metadata": {
+          "messages": {
+            "video_title": "M3GAN 2.0 Trailer",
+            "video_end_cta_title": "M3GAN 2.0",
+            "video_end_cta_subtitle": "Only in Theaters June 27"
+          },
+          "assets": {
+            "video_player_video_hls": null,
+            "video_player_video": "main_video_v1.mp4",
+            "video_player_thumbnail": "end_card.jpg",
+            "video_player_video_low_res": "main_video_low_res.mp4",
+            "video_player_caption": "captions_v2.vtt",
+            "video_player_transcript": "subs_v2.txt",
+            "quest_bar_preview_video": "questbar.webm",
+            "quest_bar_preview_thumbnail": "questbar_img.png",
+            "quest_home_video": "questbar.webm"
+          }
+        }
+      },
+      "user_status": null,
+      "targeted_content": [],
+      "preview": false
+    }
+  ],
+  "excluded_quests": [
+    {
+      "id": "1361776064501649551"
+    }
+  ],
+  "quest_enrollment_blocked_until": null
+}

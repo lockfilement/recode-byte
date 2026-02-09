@@ -1,0 +1,297 @@
+package commands
+
+import (
+	"fmt"
+	"strings"
+	"time"
+
+	"github.com/LightningDev1/discordgo"
+	log "github.com/sirupsen/logrus"
+)
+
+// PresenceCommand implements the presence command
+type PresenceCommand struct {
+	bot Bot
+}
+
+// NewPresenceCommand creates a new presence command
+func NewPresenceCommand(bot Bot) *PresenceCommand {
+	return &PresenceCommand{bot: bot}
+}
+
+// GetName returns the command name
+func (c *PresenceCommand) GetName() string {
+	return "presence"
+}
+
+// GetAliases returns command aliases
+func (c *PresenceCommand) GetAliases() []string {
+	return []string{"rp"}
+}
+
+// GetDescription returns command description
+func (c *PresenceCommand) GetDescription() string {
+	return "Configure rich presence"
+}
+
+// Execute executes the presence command
+func (c *PresenceCommand) Execute(s *discordgo.Session, m *discordgo.MessageCreate, args []string) error {
+	// Delete command message
+	if err := s.ChannelMessageDelete(m.ChannelID, m.ID); err != nil {
+		log.Debugf("Failed to delete command message: %v", err)
+	}
+
+	if len(args) == 0 {
+		msg, err := s.ChannelMessageSend(m.ChannelID, formatMessage("Please specify a setting to modify"))
+		if err != nil {
+			return err
+		}
+		
+		if c.bot.GetConfig().AutoDelete.Enabled {
+			time.AfterFunc(time.Duration(c.bot.GetConfig().AutoDelete.Delay)*time.Second, func() {
+				s.ChannelMessageDelete(m.ChannelID, msg.ID)
+			})
+		}
+		return nil
+	}
+
+	setting := strings.ToLower(args[0])
+	var value string
+	if len(args) > 1 {
+		value = strings.Join(args[1:], " ")
+	}
+
+	var response string
+
+	switch setting {
+	case "true", "on", "enable":
+		response = c.setPresenceEnabled(s, true)
+	case "false", "off", "disable":
+		response = c.setPresenceEnabled(s, false)
+	case "name":
+		response = c.setPresenceName(s, value)
+	case "state":
+		response = c.setPresenceState(s, value)
+	case "details":
+		response = c.setPresenceDetails(s, value)
+	case "type":
+		response = c.setPresenceType(s, value)
+	case "status":
+		response = c.setStatus(s, value)
+	default:
+		response = fmt.Sprintf("Unknown setting: %s. Valid settings: enable/disable, name, state, details, type, status", setting)
+	}
+
+	msg, err := s.ChannelMessageSend(m.ChannelID, formatMessage(response))
+	if err != nil {
+		return err
+	}
+
+	// Auto-delete if configured
+	if c.bot.GetConfig().AutoDelete.Enabled {
+		time.AfterFunc(time.Duration(c.bot.GetConfig().AutoDelete.Delay)*time.Second, func() {
+			s.ChannelMessageDelete(m.ChannelID, msg.ID)
+		})
+	}
+
+	return nil
+}
+
+// setPresenceEnabled enables or disables presence
+func (c *PresenceCommand) setPresenceEnabled(s *discordgo.Session, enabled bool) string {
+	// Note: This is a simplified implementation
+	// In a real implementation, you'd want to update the config and persist it
+	
+	if enabled {
+		c.updatePresence(s)
+		return "Presence enabled"
+	} else {
+		// Clear presence
+		s.UpdateStatusComplex(discordgo.UpdateStatusData{
+			Status: "dnd",
+		})
+		return "Presence disabled"
+	}
+}
+
+// setPresenceName sets the presence name
+func (c *PresenceCommand) setPresenceName(s *discordgo.Session, name string) string {
+	if name == "" {
+		return "Please provide a name"
+	}
+	
+	// Update presence with new name
+	c.updatePresenceWithName(s, name)
+	return fmt.Sprintf("Updated presence name to: %s", name)
+}
+
+// setPresenceState sets the presence state
+func (c *PresenceCommand) setPresenceState(s *discordgo.Session, state string) string {
+	if state == "" {
+		return "Please provide a state"
+	}
+	
+	c.updatePresenceWithState(s, state)
+	return fmt.Sprintf("Updated presence state to: %s", state)
+}
+
+// setPresenceDetails sets the presence details
+func (c *PresenceCommand) setPresenceDetails(s *discordgo.Session, details string) string {
+	if details == "" {
+		return "Please provide details"
+	}
+	
+	c.updatePresenceWithDetails(s, details)
+	return fmt.Sprintf("Updated presence details to: %s", details)
+}
+
+// setPresenceType sets the presence type
+func (c *PresenceCommand) setPresenceType(s *discordgo.Session, typeStr string) string {
+	var activityType discordgo.ActivityType
+	
+	switch strings.ToLower(typeStr) {
+	case "playing", "0":
+		activityType = discordgo.ActivityTypeGame
+	case "streaming", "1":
+		activityType = discordgo.ActivityTypeStreaming
+	case "listening", "2":
+		activityType = discordgo.ActivityTypeListening
+	case "watching", "3":
+		activityType = discordgo.ActivityTypeWatching
+	case "competing", "5":
+		activityType = discordgo.ActivityTypeCompeting
+	default:
+		return "Invalid type. Valid types: playing, streaming, listening, watching, competing"
+	}
+	
+	c.updatePresenceWithType(s, activityType)
+	return fmt.Sprintf("Updated presence type to: %s", typeStr)
+}
+
+// setStatus sets the Discord status
+func (c *PresenceCommand) setStatus(s *discordgo.Session, status string) string {
+	var discordStatus string
+	
+	switch strings.ToLower(status) {
+	case "online":
+		discordStatus = "online"
+	case "idle":
+		discordStatus = "idle"
+	case "dnd", "do not disturb":
+		discordStatus = "dnd"
+	case "invisible":
+		discordStatus = "invisible"
+	default:
+		return "Invalid status. Valid statuses: online, idle, dnd, invisible"
+	}
+	
+	s.UpdateStatusComplex(discordgo.UpdateStatusData{
+		Status: discordStatus,
+	})
+	
+	return fmt.Sprintf("Updated status to: %s", status)
+}
+
+// updatePresence updates the presence with current config
+func (c *PresenceCommand) updatePresence(s *discordgo.Session) {
+	cfg := c.bot.GetConfig()
+	
+	var activity *discordgo.Activity
+	if cfg.Presence.Name != "" {
+		activity = &discordgo.Activity{
+			Name: cfg.Presence.Name,
+			Type: discordgo.ActivityType(cfg.Presence.Type),
+		}
+		
+		if cfg.Presence.State != "" {
+			activity.State = cfg.Presence.State
+		}
+		
+		if cfg.Presence.Details != "" {
+			activity.Details = cfg.Presence.Details
+		}
+	}
+	
+	var status string = "dnd"
+	if cfg.Presence.Status != "" {
+		switch strings.ToLower(cfg.Presence.Status) {
+		case "online":
+			status = "online"
+		case "idle":
+			status = "idle"
+		case "dnd":
+			status = "dnd"
+		case "invisible":
+			status = "invisible"
+		}
+	}
+	
+	var activities []*discordgo.Activity
+	if activity != nil {
+		activities = append(activities, activity)
+	}
+	
+	s.UpdateStatusComplex(discordgo.UpdateStatusData{
+		Status:     status,
+		Activities: activities,
+		AFK:        true,
+	})
+}
+
+// updatePresenceWithName updates presence with a specific name
+func (c *PresenceCommand) updatePresenceWithName(s *discordgo.Session, name string) {
+	activity := &discordgo.Activity{
+		Name: name,
+		Type: discordgo.ActivityTypeGame,
+	}
+	
+	s.UpdateStatusComplex(discordgo.UpdateStatusData{
+		Status:     "dnd",
+		Activities: []*discordgo.Activity{activity},
+		AFK:        true,
+	})
+}
+
+// updatePresenceWithState updates presence with a specific state
+func (c *PresenceCommand) updatePresenceWithState(s *discordgo.Session, state string) {
+	activity := &discordgo.Activity{
+		Name:  c.bot.GetConfig().Presence.Name,
+		State: state,
+		Type:  discordgo.ActivityTypeGame,
+	}
+	
+	s.UpdateStatusComplex(discordgo.UpdateStatusData{
+		Status:     "dnd",
+		Activities: []*discordgo.Activity{activity},
+		AFK:        true,
+	})
+}
+
+// updatePresenceWithDetails updates presence with specific details
+func (c *PresenceCommand) updatePresenceWithDetails(s *discordgo.Session, details string) {
+	activity := &discordgo.Activity{
+		Name:    c.bot.GetConfig().Presence.Name,
+		Details: details,
+		Type:    discordgo.ActivityTypeGame,
+	}
+	
+	s.UpdateStatusComplex(discordgo.UpdateStatusData{
+		Status:     "dnd",
+		Activities: []*discordgo.Activity{activity},
+		AFK:        true,
+	})
+}
+
+// updatePresenceWithType updates presence with a specific type
+func (c *PresenceCommand) updatePresenceWithType(s *discordgo.Session, activityType discordgo.ActivityType) {
+	activity := &discordgo.Activity{
+		Name: c.bot.GetConfig().Presence.Name,
+		Type: activityType,
+	}
+	
+	s.UpdateStatusComplex(discordgo.UpdateStatusData{
+		Status:     "dnd",
+		Activities: []*discordgo.Activity{activity},
+		AFK:        true,
+	})
+}

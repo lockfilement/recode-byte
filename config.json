@@ -1,0 +1,9 @@
+{
+    "tokens": [
+        ""
+    ],
+    "command_prefix": "!",
+    "auto_delete": false,
+    "deepl_api_key": "YOUR-API-KEY-HERE",
+    "user_settings": {}
+}
